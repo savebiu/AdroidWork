@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alignmentMode="alignBounds"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:rowCount="2">
+
+        <!-- 第一个圆形图标 -->
+        <ImageButton
+            android:id="@+id/icon1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_button"
+            android:contentDescription="Icon 1"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo1" />
+
+        <!-- 第二个圆形图标 -->
+        <ImageButton
+            android:id="@+id/icon2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_button"
+            android:contentDescription="Icon 2"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo2" />
+
+        <!-- 第三个圆形图标 -->
+        <ImageButton
+            android:id="@+id/icon3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_button"
+            android:contentDescription="Icon 3"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo3" />
+
+        <!-- 第四个圆形图标 -->
+        <ImageButton
+            android:id="@+id/icon4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/circular_button"
+            android:contentDescription="Icon 4"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/logo4" />
+
+    </GridLayout>
+</LinearLayout>

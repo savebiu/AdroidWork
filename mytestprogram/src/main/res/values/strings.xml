@@ -1,0 +1,13 @@
+<resources>
+    <!-- 这里的 MyTestProgram 是你的应用名称，可以根据需求修改 -->
+    <string name="app_name">MyTestProgram</string>
+
+    <string-array name="raw_video_files">
+        <!-- 这里是你在 raw 文件夹下的视频文件名，不包括扩展名 -->
+        <!-- 你可以继续添加更多的文件 -->
+        <item>sample_video1</item>
+        <item>sample_video2</item>
+        <item>sample_video3</item>
+
+    </string-array>
+</resources>
